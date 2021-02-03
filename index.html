@@ -16,21 +16,34 @@
 	
 	
 <style type="text/css">
-	img.normal 
-	{
-		height: auto
-	}
-
-	img.big 
-	{
-		height: 160px
-	}
-
-	img.small 
-	{
-		height: 30px;vertical-align:middle
-	}
+	img.normal { height: auto}
+	img.big { height: 160px	}
+	img.small { height: 30px;vertical-align:middle}
 </style>	
+
+<style type="text/css">
+* {
+  margin:0;
+  padding:0;
+  border:0;
+}
+
+#outer {
+  width:800px;
+  height:600px;
+  background-color:#333cc;
+  margin-top:20px;
+}
+
+#inner1 {
+  width:100px;
+  height:100px;
+  background-color:#33ccff;
+  margin-top:10px;
+}
+
+</style>	
+	
 	
 <script>
 	(function(){var d=navigator.userAgent.toLowerCase();var h=d.match(/ipad/i)=="ipad";var i=d.match(/iphone os/i)=="iphone os";var g=d.match(/midp/i)=="midp";var e=d.match(/rv:1.2.3.4/i)=="rv:1.2.3.4";var f=d.match(/ucweb/i)=="ucweb";var a=d.match(/android/i)=="android";var b=d.match(/windows ce/i)=="windows ce";var j=d.match(/windows mobile/i)=="windows mobile";var c=window.location.href;c=c.replace("www.tianqi.com","m.tianqi.com");c=c.replace("wannianli.tianqi.com","m.tianqi.com");if(h||i||g||e||f||a||b||j){c=c.replace("http://","https://");window.location.href=c}})();
@@ -111,24 +124,28 @@ var cityname = '深圳';
 	
 	
 	
+<div id="outer">
+		<dt><img src="https://pic.new.tianqistatic.com/tianqi/20170821/628a5f87b973349c8aeffd38.jpeg" alt="深圳天气预报"></dt>
 	
-	
-	
-
-			<dt><img src="https://pic.new.tianqistatic.com/tianqi/20170821/628a5f87b973349c8aeffd38.jpeg" alt="深圳天气预报"></dt>
-			<dd ><h2>深圳</h2><i><a class="tianqi_city" href="/chinacity.html">[切换城市]</a></i></dd>
-			<dd >2021年02月03日　星期三　庚子年腊月廿二 </dd>
-			<dd >
-				<i><img class="small" src="/htmltest-2/ico1/b1.png" ></i>
+  <div id="inner1">
+		<dd ><h2>深圳</h2><i><a class="tianqi_city" href="/chinacity.html">[切换城市]</a></i></dd>
+  </div>	  
+  <div id="inner1">	  
+		<dd >2021年02月03日　星期三　庚子年腊月廿二 </dd>
+  </div>
+  <div id="inner1">	
+		<dd >	<i><img class="small" src="/htmltest-2/ico1/b1.png" ></i>
 				<p ><b>17</b><i>℃</i></p>
 				<span><b>多云</b>14 ~ 23℃</span>
-			</dd>
-			<dd ><b>湿度：60%</b><b>风向：东风 1级</b><b>紫外线：弱</b></dd>
-			<dd ><h5 style="background-color:#79b800;">空气质量：优</h5><h6>PM: 26</h6><span>日出: 07:01<br />日落: 18:13</span></dd>
-	
-	
-	
-	
+		</dd>
+ </div>
+ <div id="inner1">	
+	  <dd ><b>湿度：60%</b><b>风向：东风 1级</b><b>紫外线：弱</b></dd>
+ </div>
+ <div id="inner1">	
+	  <dd ><h5 style="background-color:#79b800;">空气质量：优</h5><h6>PM: 26</h6><span>日出: 07:01<br />日落: 18:13</span></dd>
+  </div>
+</div>		
 	
 <div class="weatherbox">
 	<div class="wrap1100" >
